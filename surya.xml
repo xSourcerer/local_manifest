@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!--Remotes-->
+    <remote name="los"            fetch="https://github.com/LineageOS"           revision="lineage-21" />
+    <remote name="muppets"        fetch="https://github.com/TheMuppets"          revision="lineage-21" />
+    <remote name="sourcerer"        fetch="https://github.com/xSourcerer"          revision="main" />
+    <remote name="aospa"        fetch="https://github.com/xSourcerer"          revision="topaz" />
+
+    <!--Devices Trees-->
+    <project name="android_device_xiaomi_surya"           path="device/xiaomi/surya"       remote="los" />
+    <project name="android_device_xiaomi_sdm845-common"     path="device/xiaomi/sdm845-common" remote="los" />
+    <!--project name="android_device_xiaomi_surya-miuicamera"	path="device/xiaomi/surya-miuicamera"	remote="aospa" /-->
+
+    <!--Vendors Tree-->
+    <project name="proprietary_vendor_xiaomi_surya"       path="vendor/xiaomi/surya"       remote="muppets" />
+
+    <!--Kernel Tree-->
+    <project name="kernel_xiaomi_surya_sb.git"            path="kernel/xiaomi/surya"        remote="sourcerer" />
+
+    <!--Hardware dependencies-->
+    <project name="android_hardware_xiaomi"                 path="hardware/xiaomi"             remote="los" />
+</manifest>
