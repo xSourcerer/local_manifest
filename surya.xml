@@ -3,17 +3,19 @@
     <!--Remotes-->
     <remote name="los"            fetch="https://github.com/LineageOS"           revision="lineage-21" />
     <remote name="muppets"        fetch="https://github.com/TheMuppets"          revision="lineage-21" />
+    <remote name="slos"           fetch="https://github.com/xSourcerer"         revision="lineage-21" />
     <remote name="sourcerer"        fetch="https://github.com/xSourcerer" />
     <remote name="aospa"        fetch="https://github.com/AOSPA"          revision="topaz" />
 
     <!--Devices Trees-->
-    <project name="android_device_xiaomi_surya"           path="device/xiaomi/surya"       remote="sourcerer" revision="lineage-21" />
-    <project name="android_device_xiaomi_sdm845-common"     path="device/xiaomi/sdm845-common" remote="los" />
-    <project name="vendor_xiaomi_miuicamera_generic"	path="device/xiaomi/miuicamera"	remote="sourcerer" revision="main" />
+    <project name="android_device_xiaomi_surya"           path="device/xiaomi/surya"       remote="slos" />
+    <project name="android_device_xiaomi_sm6150-common"     path="device/xiaomi/sm6150-common" remote="slos" />
     <!--project name="android_device_xiaomi_surya-miuicamera"	path="device/xiaomi/surya-miuicamera"	remote="aospa" /-->
 
     <!--Vendors Tree-->
     <project name="proprietary_vendor_xiaomi_surya"       path="vendor/xiaomi/surya"       remote="muppets" />
+    <project name="proprietary_vendor_xiaomi_sm6150-common"     path="vendor/xiaomi/sm6150-common"      remote="slos" />
+    <project name="vendor_xiaomi_miuicamera_generic"	path="device/xiaomi/miuicamera"	remote="sourcerer" revision="main" />
 
     <!--Kernel Tree-->
     <project name="android_kernel_xiaomi_surya"            path="kernel/xiaomi/surya"        remote="los" />
