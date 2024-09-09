@@ -13,9 +13,10 @@
     <!--project name="android_device_xiaomi_surya-miuicamera"	path="device/xiaomi/surya-miuicamera"	remote="aospa" /-->
 
     <!--Vendors Tree-->
-    <project name="proprietary_vendor_xiaomi_surya"       path="vendor/xiaomi/surya"       remote="muppets" />
+    <project name="proprietary_vendor_xiaomi_surya"       path="vendor/xiaomi/surya/proprietary"       remote="muppets" />
     <project name="proprietary_vendor_xiaomi_sm6150-common"     path="vendor/xiaomi/sm6150-common"      remote="source" />
-    <project name="vendor_xiaomi_miuicamera_generic"	path="device/xiaomi/miuicamera"	remote="sourcerer" revision="main" />
+    <project name="android_vendor_xiaomi_surya"      path="vendor/xiaomi/surya"   remote="sourcerer" revision="14.0" />
+    <project name="vendor_xiaomi_miuicamera_generic"	path="vendor/xiaomi/miuicamera"	remote="sourcerer" revision="main" />
 
     <!--Kernel Tree-->
     <project name="android_kernel_xiaomi_surya"            path="kernel/xiaomi/surya"        remote="los" />
