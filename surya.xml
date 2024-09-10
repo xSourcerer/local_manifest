@@ -27,5 +27,5 @@
     <project name="android_hardware_xiaomi"                 path="hardware/xiaomi"             remote="los" />
 
     <!--Software dependencies-->
-    <project name="packages_apps_FaceUnlock"                path="packages/apps/FaceUnlock"    remote="evox" />
+    <!--project name="packages_apps_FaceUnlock"                path="packages/apps/FaceUnlock"    remote="evox" /-->
 </manifest>
