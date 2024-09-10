@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <!--Remotes-->
+    <remote name="evox"        fetch="https://github.com/Evolution-X"            revision="udc" />
     <remote name="los"            fetch="https://github.com/LineageOS"           revision="lineage-21" />
     <remote name="muppets"        fetch="https://github.com/TheMuppets"          revision="lineage-21" />
     <remote name="source"           fetch="https://github.com/xSourcerer"         revision="lineage-21" />
@@ -24,4 +25,7 @@
 
     <!--Hardware dependencies-->
     <project name="android_hardware_xiaomi"                 path="hardware/xiaomi"             remote="los" />
+
+    <!--Software dependencies-->
+    <project name="packages_apps_FaceUnlock"                path="packages/apps/FaceUnlock"    remote="evox" />
 </manifest>
