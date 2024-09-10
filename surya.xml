@@ -15,6 +15,7 @@
     <!--Vendors Tree-->
     <project name="proprietary_vendor_xiaomi_surya"       path="vendor/xiaomi/surya/proprietary"       remote="muppets" />
     <project name="proprietary_vendor_xiaomi_sm6150-common"     path="vendor/xiaomi/sm6150-common"      remote="source" />
+    
     <project name="android_vendor_xiaomi_surya"      path="vendor/xiaomi/surya"   remote="sourcerer" revision="14.0" />
     <project name="vendor_xiaomi_miuicamera_generic"	path="vendor/xiaomi/miuicamera"	remote="sourcerer" revision="main" />
 
