@@ -2,21 +2,15 @@
 <manifest>
     <!--Remotes-->
     <remote name="evox"        fetch="https://github.com/Evolution-X"            revision="udc" />
-    <remote name="los"            fetch="https://github.com/LineageOS"           revision="lineage-21" />
-    <remote name="muppets"        fetch="https://github.com/TheMuppets"          revision="lineage-21" />
-    <remote name="source"           fetch="https://github.com/xSourcerer"         revision="lineage-21" />
     <remote name="sourcerer"        fetch="https://github.com/xSourcerer" />
     <remote name="crdroid"        fetch="https://github.com/crdroidandroid"          revision="14.0" />
 
     <!--Devices Trees-->
     <project name="android_device_xiaomi_surya"           path="device/xiaomi/surya"       remote="crdroid" />
-    <project name="android_device_xiaomi_sm6150-common"     path="device/xiaomi/sm6150-common" remote="crdroid" />
 
     <!--Vendors Tree-->
-    <!--project name="proprietary_vendor_xiaomi_surya"       path="vendor/xiaomi/surya/proprietary"       remote="muppets" /-->
     <project name="proprietary_vendor_xiaomi_sm6150-common"     path="vendor/xiaomi/sm6150-common"      remote="crdroid" />
-    
-    <project name="android_vendor_xiaomi_surya"      path="vendor/xiaomi/surya"   remote="crdroid" revision="14.0" />
+    <project name="android_vendor_xiaomi_surya"      path="vendor/xiaomi/surya"   remote="crdroid" />
     <project name="vendor_xiaomi_miuicamera_generic"	path="vendor/xiaomi/miuicamera"	remote="sourcerer" revision="main" />
 
     <!--Kernel Tree-->
