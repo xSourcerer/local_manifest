@@ -13,7 +13,7 @@
     <project name="vendor_xiaomi_surya"      path="vendor/xiaomi/surya"   remote="sourcerer"    revision="main" />
     
     <project name="vendor_xiaomi_miuicamera_generic"	path="vendor/xiaomi/miuicamera"	remote="sourcerer" revision="main" />
-    <project name="vendor_bcr"	path="vendor/bcr"	remote="sourcerer" revision="main" />
+    <!--project name="vendor_bcr"	path="vendor/bcr"	remote="sourcerer" revision="main" /-->
 
     <!--Kernel Tree-->
     <project name="kernel_xiaomi_surya"            path="kernel/xiaomi/surya"        remote="sourcerer"    revision="lineage-21" />
