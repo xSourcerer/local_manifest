@@ -6,26 +6,22 @@
     <remote name="muppets"        fetch="https://github.com/TheMuppets"          revision="lineage-21" />
     <remote name="source"           fetch="https://github.com/xSourcerer"         revision="lineage-21" />
     <remote name="sourcerer"        fetch="https://github.com/xSourcerer" />
-    <remote name="aospa"        fetch="https://github.com/AOSPA"          revision="topaz" />
+    <remote name="crdroid"        fetch="https://github.com/crdroidandroid"          revision="14.0" />
 
     <!--Devices Trees-->
-    <project name="android_device_xiaomi_surya"           path="device/xiaomi/surya"       remote="source" />
-    <project name="android_device_xiaomi_sm6150-common"     path="device/xiaomi/sm6150-common" remote="source" />
-    <!--project name="android_device_xiaomi_surya-miuicamera"	path="device/xiaomi/surya-miuicamera"	remote="aospa" /-->
+    <project name="android_device_xiaomi_surya"           path="device/xiaomi/surya"       remote="crdroid" />
+    <project name="android_device_xiaomi_sm6150-common"     path="device/xiaomi/sm6150-common" remote="crdroid" />
 
     <!--Vendors Tree-->
-    <project name="proprietary_vendor_xiaomi_surya"       path="vendor/xiaomi/surya/proprietary"       remote="muppets" />
-    <project name="proprietary_vendor_xiaomi_sm6150-common"     path="vendor/xiaomi/sm6150-common"      remote="source" />
+    <!--project name="proprietary_vendor_xiaomi_surya"       path="vendor/xiaomi/surya/proprietary"       remote="muppets" /-->
+    <project name="proprietary_vendor_xiaomi_sm6150-common"     path="vendor/xiaomi/sm6150-common"      remote="crdroid" />
     
-    <project name="android_vendor_xiaomi_surya"      path="vendor/xiaomi/surya"   remote="sourcerer" revision="14.0" />
+    <project name="android_vendor_xiaomi_surya"      path="vendor/xiaomi/surya"   remote="crdroid" revision="14.0" />
     <project name="vendor_xiaomi_miuicamera_generic"	path="vendor/xiaomi/miuicamera"	remote="sourcerer" revision="main" />
 
     <!--Kernel Tree-->
-    <project name="android_kernel_xiaomi_surya"            path="kernel/xiaomi/surya"        remote="los" />
+    <project name="android_kernel_xiaomi_surya"            path="kernel/xiaomi/surya"        remote="crdroid" />
 
     <!--Hardware dependencies-->
-    <project name="android_hardware_xiaomi"                 path="hardware/xiaomi"             remote="los" />
-
-    <!--Software dependencies-->
-    <!--project name="packages_apps_FaceUnlock"                path="packages/apps/FaceUnlock"    remote="evox" /-->
+    <project name="android_hardware_xiaomi"                 path="hardware/xiaomi"             remote="crdroid" />
 </manifest>
