@@ -9,7 +9,7 @@
 
     <!--Devices Trees-->
     <project name="device_xiaomi_surya"           path="device/xiaomi/surya"       remote="sourcerer"    revision="miuicam" />
-    <project name="vendor_xiaomi_miuicamera"         path="vendor/xiaomi/miuicamera"       remote="github"    revision="leica-5.0" />
+    <project name="vendor_xiaomi_miuicamera"         path="vendor/xiaomi/miuicamera"       remote="micam"    revision="leica-5.0" />
 
     <!--Vendors Tree-->
     <project name="proprietary_vendor_xiaomi_sm6150-common"     path="vendor/xiaomi/sm6150-common"      remote="crdroid" />
