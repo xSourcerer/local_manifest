@@ -5,10 +5,11 @@
     <remote name="crdroid"        fetch="https://github.com/crdroidandroid"          revision="14.0" />
     <remote name="surya"          fetch="https://github.com/surya-aosp" />
     <remote name="github"    fetch="https://github.com" />
+    <remote name="micam"    fetch="https://gitlab.com/ItzDFPlayer" />
 
     <!--Devices Trees-->
     <project name="device_xiaomi_surya"           path="device/xiaomi/surya"       remote="sourcerer"    revision="miuicam" />
-    <project name="CHRISL7/device_xiaomi_surya-miuicamera"           path="device/xiaomi/surya-miuicamera"       remote="github"    revision="topaz" />
+    <project name="vendor_xiaomi_miuicamera"         path="vendor/xiaomi/miuicamera"       remote="github"    revision="leica-5.0" />
 
     <!--Vendors Tree-->
     <project name="proprietary_vendor_xiaomi_sm6150-common"     path="vendor/xiaomi/sm6150-common"      remote="crdroid" />
