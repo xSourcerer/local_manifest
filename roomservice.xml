@@ -6,7 +6,7 @@
     <remote name="micam"      fetch="https://gitlab.com/ItzDFPlayer"     revision="leica-5.0" />
 
     <!--Devices Trees-->
-    <project name="android_device_xiaomi_surya"           path="device/xiaomi/surya"       remote="crdroid" />
+    <project name="android_device_xiaomi_surya"           path="device/xiaomi/surya"       remote="sourcerer"    revision="14.0" />
 
     <!--Vendors Tree-->
     <project name="proprietary_vendor_xiaomi_sm6150-common"     path="vendor/xiaomi/sm6150-common"      remote="crdroid" />
